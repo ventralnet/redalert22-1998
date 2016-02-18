@@ -1,0 +1,63 @@
+<HTML>
+
+<BODY BGCOLOR="BLACK">
+<!--Begin JavaScript roadmap code.  If editing downloaded HTML source, delete
+ this portion.-->
+
+<script language="JavaScript">
+
+<!--
+
+function TripodShowPopup() {
+	// vars for browser detect
+	var bName=navigator.appName;
+	var bVer=parseInt(navigator.appVersion);
+	// open the popup window. stick a timestamp to foil caching. Some versions of Netscape do not automatically load
+        // the page specified by the URL paramter of wondow.open(). As such, we create the window empty, then explicitly load
+        // the page with the location object
+	var now = new Date();
+	var popupURL = "/adm/popup/roadmap.shtml?"+"member_name=redalert22&path=top.htm&client_ip=24.13.103.75&ts=959885553&ad_type=POPUP&id=a6a8e0d74ddeb1fbd944d4fc6ef3f1a8";
+	var popupName = "TripodPopup";
+	// browser detect loads differently sized window for netscape 3.x
+	if (bName=="Netscape" && bVer<=3) {
+	  	var popup = window.open("", popupName,'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,width=614,height=129');
+	} else {
+	  	var popup = window.open("", popupName,'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,width=604,height=112');
+	}
+	popup.location = popupURL;
+
+}
+
+TripodShowPopup();
+
+// -->
+</script>
+
+<!--End inserted JavaScript code.-->
+
+
+<center>
+<applet code="Fade.class" width="300" height="50">
+                    <param name="bgcolor" value="000000">
+                    <param name="txtcolor" value="ffffff">
+                    <param name="changefactor" value="4">
+                    <param name="text1" value="Welcome to the RA Depot">
+                    <param name="url1" value="main.htm">
+                    <param name="font1" value="Helvetica,BOLD,14">
+                    <param name="text2" value="RA Depot is updated Constantly">
+                    <param name="url2" value="main.htm">
+                    <param name="font2" value="TimesRoman,BOLD,14">
+                    <param name="text3" value="Press ctrl D to bookmark">
+                    <param name="url3" value="main.htm">
+                    <param name="font3" value="Courier,BOLD,14">
+                    <param name="text4" value="email: gkirkley@erols.com">
+                    <param name="url4" value="mailto:gkirkley@erols.com">
+                    <param name="font4" value="Helvetica,ITALIC,14">
+</applet>
+</center>
+
+
+
+
+
+</HTML>
