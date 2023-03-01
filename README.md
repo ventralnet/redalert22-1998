@@ -4,4 +4,4 @@ Frameset and all.  See it in all its glory.
 
 # Look ma, still works
 
-<https://polar-island-36364.herokuapp.com/>
+<https://shiny-meringue-d5bf5e.netlify.app/>
